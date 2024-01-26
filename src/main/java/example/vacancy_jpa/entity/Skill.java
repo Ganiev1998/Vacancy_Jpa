@@ -21,6 +21,6 @@ public class Skill {
 
     private String name;
 
-    @ManyToMany(mappedBy = "skills",fetch = FetchType.EAGER)
-    private Set<Vacancy> vacancies = new HashSet<>();
+//    @ManyToMany(mappedBy = "skills",fetch = FetchType.EAGER)
+//    private Set<Vacancy> vacancies = new HashSet<>();
 }
